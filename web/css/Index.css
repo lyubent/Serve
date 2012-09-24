@@ -1,0 +1,138 @@
+/* 
+    Document   : index.css
+    Created on : 17-Sep-2012, 11:57:58
+    Author     : danieldeak
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body {
+}
+
+
+.site {
+    min-width: 1000px;
+}
+
+.book {
+    width: 70%;
+    background-color: #C66957;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 800px;
+    padding: 1%;
+    padding-bottom: 3%;
+
+    display:inline-block;
+
+    min-height: 750px;
+    min-width: 850px;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.border {
+    width: 90%;
+    height: 95%;
+    background-color: #FFB685;
+    padding: 1%;
+    min-height: 800px;
+    min-width: 600px;
+    display:inline-block;
+
+    border: 1px solid black;
+
+    margin-right: 20px;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.pageSeparator {
+    display: inline-block;
+    background-color: black;
+    width:5px;
+    height: 100%;
+}
+
+.page {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: white;
+
+    margin-right : 20px;
+
+    vertical-align: top;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.page2 {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: white;
+
+    margin-left : 20px;
+
+    vertical-align: top;
+
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.tabs {
+    margin-top: 4%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.singleTab {
+    height: 100px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    display:table;
+    width: 50px;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.singleTab p {
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.One {
+    background-color: #ff3333;
+}
+
+.Two {
+    background-color: #3366ff;
+}
